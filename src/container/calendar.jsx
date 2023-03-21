@@ -101,7 +101,7 @@ export const Calendar = () => {
   }
 
   return (
-    <div className="warpper w-[440px] bg-white rounded-xl">
+    <div className="warpper md:w-[440px] bg-white rounded-xl">
       {/* Months  */}
       <header className="flex items-center justify-between pt-6 px-7 pb-3">
         <h4 id="current-date" className="text-2xl font-medium">{month} {year} <span className="ml-3 text-xs text-red-400">{todayDay}/{todayMonth}/{todayYear}</span></h4>
