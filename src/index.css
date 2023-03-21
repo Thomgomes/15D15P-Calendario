@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inactive{
+  color: #aaa;
+}
+
+.active{
+  color: #fff;
+}
+
+.active::before{
+ background: red;
+}
+
+ul li::before{
+  transform: translate(-50%, -50%);
+}
